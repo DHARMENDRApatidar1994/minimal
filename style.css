@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.page1{
+    width: 100%;
+    height: 70%;
+    background-image: url(tyler-lastovich-ddLiNMqWAOM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    
+
+}
+.page1 h4{
+    margin-top: 5vmax;
+}
+.page1 h1{
+    font-size: 7vmax;
+    margin: 2vmax 0vmax;
+}
+.page1 h3{
+    margin: 1vmax 0vmax;
+}
+.page2{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.page2 nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+}
+nav h1{
+    font-size: 4vmax;
+    border: 2px solid black;
+    padding: 1vmax 1vmax;
+    margin-top: -1vmax;
+    cursor: pointer;
+
+}
+nav h2{
+    cursor: pointer;
+}
+nav h2:hover{
+    color: blue;
+}
+.page2 .mobile-nav button{
+    display: none;
+}
+.page2 .matter1{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.page2 .matter1-2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3vmax;
+}
+.page2 .matter2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3vmax;
+   
+}
+.page2 .matter2 h5{
+    border-top: 2px solid black;
+    cursor: pointer;
+}
+.page3{
+    width: 100%;
+    height: 70%;background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.page3 .black-left{
+    width: 35%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.black-left button{
+    width: 25%;
+    height: 10%;
+    font-size: 1.5vmax;
+    cursor: pointer;
+
+}
+.page3 .black-right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.black-right img{
+    width: 12.5vmax;
+    height: 6vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+.page3 .your-class{
+    display: none;
+}
+.page4{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page4 p{
+    width: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+}
+.hr{
+    width: 12%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hr hr{
+    width: 3vmax;
+    height: 0.5vmax;
+    background-color: black;
+    margin-top: 1vmax;
+    cursor: pointer;
+}
+ .nav-mobile {
+    background-color:rgb(255, 174, 0);
+    width: 100%;
+    height: 100%;
+    
+    /* z-index: 999; */
+    transform: translateX(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    }
+    .nav-mobile h2{
+        margin-bottom: 3vmax;
+        font-size: 4vmax;
+        transition: 0.5s;
+        cursor: pointer;
+       
+    }
+    .nav-mobile .ig{
+        position: absolute;
+        top: 7%;
+        right: 15%;
+        font-size: 3vmax;
+        cursor: pointer;
+    }
+    
+
+@media (max-width: 600px) {
+    .page1 h4{
+        margin-top: 12vmax;
+    }
+    .page1 h1{
+        
+        margin: 4vmax 0vmax;
+    }
+    .page1 h3{
+        margin: 4vmax 0vmax;
+    }
+    .page2 nav{
+        display: none;
+    }
+    .page2 .mobile-nav button{
+        /* height: 15%; */
+        display: initial;
+        padding: 0.5vmax 2vmax;
+        font-size: 2vmax;
+    }
+    .page2 .matter1{
+        width: 80%;
+    }
+    .page2 .matter2 h5{
+        margin-top: -7vmax;
+    }
+    .page3{
+        width: 100%;
+        height: 70%;background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+   
+        .page3 .black-left{
+            width: 90%;
+            height: 50%;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            
+        }
+        .black-left button{
+            width: 30%;
+            height: 10%;
+            font-size: 2.5vmax;
+        
+        }
+        .page3 .black-right{
+            display: none;
+        }
+        .page3 .your-class{
+            width: 70%;
+            height: 40%;
+            display: initial;
+            margin: auto;
+         }
+         .your-class img{
+            width: 80%;
+            height: 20vh;
+         }
+        .page4 p{
+            width: 70%;
+        }
+        .hr{
+            width: 20%;
+        }
+        .hr hr{
+            width: 3vmax;
+            height: 0.9vmax;
+           
+            margin-top: 2vmax;
+        }
+       
+    
+    
+}
