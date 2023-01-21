@@ -230,6 +230,7 @@ nav h2:hover{
             display: flex;
             justify-content: space-evenly;
             flex-direction: column;
+margin-top: 2vmax;
             
         }
         .black-left button{
